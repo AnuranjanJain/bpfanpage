@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            background-color: #000000c9;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+        .header, .footer {
+            background-color: #eb35b4;
+            padding: 10px;
+        }
+        .box {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: #ff008c;
+            color: rgb(255, 255, 255);
+            line-height: 200px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 50px;
+        }
+        .bpimg {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            padding:10dvh;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BLACKPINK</h1>
+    </div>
+    <div class="box" onclick="location.href='page1.html'">Lisa</div>
+    <div class="box" onclick="location.href='page2.html'">Rose</div>
+    <div class="box" onclick="location.href='page3.html'">Jennie</div>
+    <div class="box" onclick="location.href='page4.html'">Jisoo</div>
+    <h4>In Your Area</h4>
+    <br>
+    <img class="bpimg" src="blackpink.jpg" alt="Blackpink" width="750px">
+    <br>
+    <div class="footer">
+        <p>&copy; 2024 Made with Love</p>
+    </div>
+</body>
+</html>

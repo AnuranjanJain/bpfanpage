@@ -1,0 +1,79 @@
+/* Removed duplicate body selector */
+
+.front {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position:absolute;
+    width : 100vw;
+    height : 100vh;
+
+}
+
+header {
+    color: red;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: black;
+    text-align: center;
+    border : 0.3em solid red;
+}
+
+nav {
+    background-color: black;
+    border : 0.1em solid red;
+}
+body {
+    background: linear-gradient(to left, black, rgb(192, 65, 86));
+    
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: absolute;
+/* Removed duplicate footer selector */
+    padding: 1em;
+    margin: 0.5em;
+    border: 0.1em solid red;
+    background-color: black;
+    color: red;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 1px 1px 2px #000000;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: red;
+    font-size: 0.5em;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    padding : 0.5em;
+}
+
+body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-height: 100vh;
+
+    margin: 0;
+
+}
+
+
+
+.content, .members {
+
+    flex: 1;
+
+}
